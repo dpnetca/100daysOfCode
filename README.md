@@ -20,7 +20,7 @@ Below are links to the specific repls for the end of day projects:
 As a group we have initially decided on a slightly slower cadence, to allow as many people as we can to be able
 to join along, and recognizing that everyone has busy schedules, our goal is to complete 4 days worth of sessions
 per week, then have time on Sunday's for open discussion.  To this end I also wrote a little script to quickly
-create our target calendar: [cadenace](https://repl.it/@dpnetca/cadence#main.py)
+create our target calendar: [cadence](https://repl.it/@dpnetca/cadence#main.py)
 
 However, I do plan, initially atleast, to try and do a little bit each day, and average out to 1 days lesson per day.
 I expect some days I will complete more then 1 lesson, some days I will complete none, but I hope to maintain this
