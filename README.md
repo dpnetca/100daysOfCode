@@ -1,9 +1,9 @@
 # 100 Days of Code
 I first heard about the 100 Days of Code concept sometime in the last year or two, and it has intrigued me.
 So this year, along with several fellow members of the [Router Gods](http://routergods.com) user group, I am
-doing the 100 days of Code book camp following this particular Udemy Course: https://www.udemy.com/course/100-days-of-code/
+doing a 100 days of Code bootcamp following this particular Udemy Course: https://www.udemy.com/course/100-days-of-code/
 
-I intend to use this Repo to track my progress.
+I intend to use this repository to track my progress.
 
 ## repl.it
 for the first few days of lessons (possibly the first 15 days?) we are using repl.it for our code. 
@@ -24,7 +24,7 @@ create our target calendar: [cadence](https://repl.it/@dpnetca/cadence#main.py)
 
 However, I do plan, initially atleast, to try and do a little bit each day, and average out to 1 days lesson per day.
 I expect some days I will complete more then 1 lesson, some days I will complete none, but I hope to maintain this
-average.  Work / Life / Learn balance is important though, and at times this will mean the training needs to pause
+average.  Work / Life / Learn balance is important though, and at times this will mean this training needs to pause
 for other priorities (i.e. spending timne with my spouse and my puppers, going on vacation (if we can ever travel again?),
 Cisco DevNet certifications, etc). In the spirit of 100 days of code however, I will be making efforts to do some coding every day,
 even if it is not in line with this course.  This will include code related to DevNet studies, or automating all the things
