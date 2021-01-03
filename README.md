@@ -3,7 +3,10 @@ I first heard about the 100 Days of Code concept sometime in the last year or tw
 So this year, along with several fellow members of the [Router Gods](http://routergods.com) user group, I am
 doing a 100 days of Code bootcamp following this particular Udemy Course: https://www.udemy.com/course/100-days-of-code/
 
-I intend to use this repository to track my progress.
+I intend to use this repository to track my progress. 
+
+I also want to note I am trying to solve the each of the days challenges sticking within the confines of what has been
+taught so far, and not working ahead using techniques from future lessons.
 
 ## repl.it
 for the first few days of lessons (possibly the first 15 days?) we are using repl.it for our code. 
@@ -14,6 +17,7 @@ Below are links to the specific repls for the end of day projects:
  - Day 1: [Band Name Generator](https://repl.it/@dpnetca/band-name-generator-start#main.py)
  - Day 2: [Tip Calculator](https://repl.it/@dpnetca/tip-calculator-start#main.py)
  - Day 3: [Treasure Island](https://repl.it/@dpnetca/treasure-island-start#main.py)
+ - Day 4: [Rock Paper Scissors](https://repl.it/@dpnetca/rock-paper-scissors)
 
 
 ## Cadence
