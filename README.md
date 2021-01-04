@@ -18,7 +18,7 @@ Below are links to the specific repls for the end of day projects:
  - Day 2: [Tip Calculator](https://repl.it/@dpnetca/tip-calculator-start#main.py)
  - Day 3: [Treasure Island](https://repl.it/@dpnetca/treasure-island-start#main.py)
  - Day 4: [Rock Paper Scissors](https://repl.it/@dpnetca/rock-paper-scissors)
-
+ - Day 5: [Password Generator](https://repl.it/@dpnetca/password-generator-start#main.py)
 
 ## Cadence
 As a group we have initially decided on a slightly slower cadence, to allow as many people as we can to be able
