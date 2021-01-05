@@ -22,7 +22,7 @@ Below are links to the specific repls for the end of day projects:
 - Day 3: [Treasure Island](https://repl.it/@dpnetca/treasure-island-start#main.py)
 - Day 4: [Rock Paper Scissors](https://repl.it/@dpnetca/rock-paper-scissors)
 - Day 5: [Password Generator](https://repl.it/@dpnetca/password-generator-start#main.py)
-- Day 6: Completed through (Reeborg's World)[https://reeborg.ca/]. My solutions found here in the "Day 6" folder. Day 6 final challenge was the (maze)[https://github.com/dpnetca/100daysOfCode/blob/master/day6/maze.py]
+- Day 6: Completed through [Reeborg's World](https://reeborg.ca/). My solutions found here in the "Day 6" folder. Day 6 final challenge was the [maze](https://github.com/dpnetca/100daysOfCode/blob/master/day6/maze.py)
 
 ## Cadence
 
