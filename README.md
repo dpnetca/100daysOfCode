@@ -13,18 +13,19 @@ taught so far, and not working ahead using techniques from future lessons.
 
 for the first few days of lessons (possibly the first 15 days?) we are using repl.it for our code.
 I may move these to this repo at some point, but repl.it is neat as it allows you to run the code in the browser.
+Start at Day 6 all code has been moved to git hub the the appropriate folder.
+Each day also contains a small readme explaining the days events.
 You can see my repl.it profile at: https://repl.it/@dpnetca there are are lots items in here related to the
 100 days of code course as I follow along with the lessons.
-Below are links to the specific repls for the end of day projects:
+Below are links to the specific repls for the end of day projects that have not yet been moved to git:
 
 - Day 1: [Band Name Generator](https://repl.it/@dpnetca/band-name-generator-start#main.py)
 - Day 2: [Tip Calculator](https://repl.it/@dpnetca/tip-calculator-start#main.py)
 - Day 3: [Treasure Island](https://repl.it/@dpnetca/treasure-island-start#main.py)
 - Day 4: [Rock Paper Scissors](https://repl.it/@dpnetca/rock-paper-scissors)
 - Day 5: [Password Generator](https://repl.it/@dpnetca/password-generator-start#main.py)
-- Day 6: Completed through [Reeborg's World](https://reeborg.ca/). My solutions found here in the "Day 6" folder. Day 6 final challenge was the [maze](https://github.com/dpnetca/100daysOfCode/blob/master/day6/maze.py). However there is a corner case where this solution fails, seen in the problenm_world's. solved with [Problem Worlds](https://github.com/dpnetca/100daysOfCode/blob/master/day6/problem_worlds.py)
 
-## Cadence
+# Cadence
 
 As a group we have initially decided on a slightly slower cadence, to allow as many people as we can to be able
 to join along, and recognizing that everyone has busy schedules, our goal is to complete 4 days worth of sessions
