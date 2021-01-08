@@ -52,7 +52,7 @@ def text_shift(text, shift):
         if letter in alphabet:
             position = alphabet.index(letter)
             new_position = position + normalized_shift
-            if new_position > len(alphabet):
+            if new_position >= len(alphabet):
                 new_position -= len(alphabet)
             shift_text += alphabet[new_position]
         else:
