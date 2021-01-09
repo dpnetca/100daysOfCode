@@ -2,13 +2,12 @@
 
 
 def paint_calc(height, width, cover):
-    area = height * width
-    cans = area / cover
-    cans_needed = int(cans + 0.5)
+    cans = height * width / cover
+    cans_needed = round(cans + 0.5)
     # could do something with // % and if statements
     # could use math.ceil
 
-    print(cans_needed)
+    print(f"You'll need {cans_needed} cans of paint.")
 
 
 # Write your code above this line 👆
