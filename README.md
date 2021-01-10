@@ -11,19 +11,8 @@ taught so far, and not working ahead using techniques from future lessons.
 
 ## repl.it
 
-for the first few days of lessons (possibly the first 15 days?) we are using repl.it for our code.
-I may move these to this repo at some point, but repl.it is neat as it allows you to run the code in the browser.
-Start at Day 6 all code has been moved to git hub the the appropriate folder.
-Each day also contains a small readme explaining the days events.
-You can see my repl.it profile at: https://repl.it/@dpnetca there are are lots items in here related to the
-100 days of code course as I follow along with the lessons.
-Below are links to the specific repls for the end of day projects that have not yet been moved to git:
-
-- Day 1: [Band Name Generator](https://repl.it/@dpnetca/band-name-generator-start#main.py)
-- Day 2: [Tip Calculator](https://repl.it/@dpnetca/tip-calculator-start#main.py)
-- Day 3: [Treasure Island](https://repl.it/@dpnetca/treasure-island-start#main.py)
-- Day 4: [Rock Paper Scissors](https://repl.it/@dpnetca/rock-paper-scissors)
-- Day 5: [Password Generator](https://repl.it/@dpnetca/password-generator-start#main.py)
+Repl.it seems to be common use in this course, my repl.it profile can be found at: https://repl.it/@dpnetca
+The end of day challenges for each day have been brought to the github repoisotry, and most exercises are posted here as well.
 
 # Cadence
 
