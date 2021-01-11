@@ -52,6 +52,6 @@ while game_on:
     if guesses == 1:
         print("sorry you have run our of guesses, better luck next time")
         game_on = False
-    else:
+    elif game_on:
         print("guess again.")
         guesses -= 1
