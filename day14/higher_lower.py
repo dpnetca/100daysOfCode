@@ -32,6 +32,12 @@ def get_valid_input(question, options):
 
 
 def print_option(selection, option):
+    """take in the option and print out formatted string
+
+    Args:
+        selection (str): Option Label
+        option (dict): option to print
+    """
     print(
         f"Option {selection}: {option['name']}, "
         f"a {option['description']}, "
@@ -40,6 +46,17 @@ def print_option(selection, option):
 
 
 def is_correct(guess, options):
+    """take in guess and options, compare follower count
+    if the guess is the higher follower account return True,
+    if not return False
+
+    Args:
+        guess (str): guessed option (a or b)
+        options (Dict): dictionary of options
+
+    Returns:
+        bool: true if guessed correct else false
+    """
     if guess.lower() == "a":
         if options["a"]["follower_count"] > options["b"]["follower_count"]:
             return True
@@ -57,6 +74,10 @@ def play_game():
 
     while correct:
         options["b"] = random.choice(game_data.data)
+
+        # BUG what happens when a and b are same value...
+        # should add some error checking to regenerate b until it is not equal
+        # to a
 
         print_option("A", options["a"])
         print("  -- VS --  ")
