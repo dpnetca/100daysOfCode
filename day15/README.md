@@ -34,5 +34,3 @@ prompt for drink,
 prompt for coins,
 process coins and provide change
 provide error and refund if insufficient funds
-
-detailed requirements in the pdf in this folder
