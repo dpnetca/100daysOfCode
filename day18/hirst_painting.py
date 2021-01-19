@@ -62,5 +62,4 @@ for rows in range(10):
     x = -250
     y += 50
 
-
 screen.exitonclick()
