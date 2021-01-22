@@ -7,7 +7,7 @@ from scoreboard import Scoreboard
 WALL_COLLISION = 290
 
 screen = Screen()
-screen.setup(width=600, height=640)
+screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake Game")
 screen.tracer(0)
