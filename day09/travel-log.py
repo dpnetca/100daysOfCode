@@ -8,7 +8,7 @@ travel_log = [
 ]
 # 🚨 Do NOT change the code above
 
-# TODO: Write the function that will allow new countries
+# Write the function that will allow new countries
 # to be added to the travel_log. 👇
 
 

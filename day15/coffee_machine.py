@@ -245,7 +245,7 @@ inventory = {
     "water": 1000,  # amount of water in ml
     "milk": 1000,  # amount of milk in ml
     "coffee": 1000,  # amount of coffee in g
-    "money": 0.00,  # TODO change to track specific coins maybe?
+    "money": 0.00,  # consider change to track specific coins maybe?
 }
 
 machine_is_on = True
