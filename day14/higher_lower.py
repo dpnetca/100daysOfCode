@@ -75,9 +75,8 @@ def play_game():
     while correct:
         options["b"] = random.choice(game_data.data)
 
-        # BUG what happens when a and b are same value...
-        # should add some error checking to regenerate b until it is not equal
-        # to a
+        while options["a"] == options["b"]:
+            options["b"] = random.choice(game_data.data)
 
         print_option("A", options["a"])
         print("  -- VS --  ")
