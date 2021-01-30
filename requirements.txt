@@ -1,3 +1,6 @@
 # Day 18
 colorgram.py
+# Day 25
 pandas
+# Day 29
+pyperclip
