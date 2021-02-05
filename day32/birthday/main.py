@@ -56,6 +56,13 @@ df = pd.read_csv(birthday_file)
 for i_, row in df.iterrows():
     birth_month = row["month"]
     birth_day = row["day"]
+
+    # comment after watching solution:
+    # Make a Tupple instead and compare tupples
+    # birthday = (row["month"], row["day"]
+    # today = (now.month, now.day)
+    # if birthday == today":
+
     if birth_month == current_month and birth_day == current_day:
 
         # 3. If step 2 is true, pick a random letter from letter
