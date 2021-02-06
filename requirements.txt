@@ -5,5 +5,8 @@ pandas
 # Day 29
 pyperclip
 
-#Day 32
+# Day 32
 python-dotenv  # not part of course content
+
+# Day 33
+requests
