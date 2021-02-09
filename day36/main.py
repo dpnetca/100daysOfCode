@@ -152,11 +152,11 @@ if abs(percent_change) > 5:
     else:
         articles = len(news)
     news = news[:articles]
+    if percent_change > 0:
+        icon = "🔺"
+    else:
+        icon = "🔻"
     for article in news:
-        if percent_change > 0:
-            icon = "🔺"
-        else:
-            icon = "🔻"
         message = (
             f"{STOCK}: {icon} {abs(percent_change):.2f}%\n"
             f"Headline: {article['title']}\n"
