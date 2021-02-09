@@ -10,3 +10,6 @@ python-dotenv  # not part of course content
 
 # Day 33
 requests
+
+# Day 25
+twilio
