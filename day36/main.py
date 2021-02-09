@@ -93,7 +93,8 @@ def get_news():
     # could also use newsAPI client instead of API's direct...
     news_header = {"X-Api-Key": os.getenv("NEWS_API_KEY")}
     news_url = "https://newsapi.org/v2/everything"
-    news_params = {"q": COMPANY_NAME}
+    # news_params = {"q": COMPANY_NAME}
+    news_params = {"qInTitle": COMPANY_NAME}
     news_response = requests.get(
         news_url, params=news_params, headers=news_header
     )
