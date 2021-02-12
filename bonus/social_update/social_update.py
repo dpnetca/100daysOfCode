@@ -54,7 +54,7 @@ if args.day:
     )
 
 
-endpoint = "/forums(id=1364174)/Chat.PostMessage()"
+endpoint = f"/forums(id={os.getenv('RYVER_FORUM_ID')})/Chat.PostMessage()"
 
 data = {"body": message}
 response = requests.post(
