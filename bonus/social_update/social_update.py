@@ -54,8 +54,7 @@ if args.day:
     )
 
 
-# endpoint = "/forums(id=1364174)/Chat.PostMessage()"
-endpoint = "/users(id=1218139)/Chat.PostMessage()"
+endpoint = "/forums(id=1364174)/Chat.PostMessage()"
 
 data = {"body": message}
 response = requests.post(
