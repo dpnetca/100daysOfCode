@@ -70,7 +70,7 @@ class FlightSearch:
             destination_city=data["cityTo"],
             destination_airport=data["flyTo"],
             departure_date=data["route"][0]["local_departure"].split("T")[0],
-            return_date=data["route"][0]["local_arrival"].split("T")[0],
+            return_date=data["route"][-1]["local_arrival"].split("T")[0],
             price=data["price"],
         )
         return flight_data
