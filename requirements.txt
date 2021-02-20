@@ -13,3 +13,6 @@ requests
 
 # Day 25
 twilio
+
+# Day 45
+beautifulsoup4
