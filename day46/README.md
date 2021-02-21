@@ -13,3 +13,11 @@ completed this twice
 
 - Once as a linear Script (v1)
 - once with OOP (v2)
+
+# .ENV
+
+The following are defined in .env file:
+
+- SPOTIPY_CLIENT_ID="your client id"
+- SPOTIPY_CLIENT_SECRET="your client secret"
+- SPOTIPY_REDIRECT_URI="your redirect uri i.e. http://example.com"
