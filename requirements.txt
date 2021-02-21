@@ -16,3 +16,6 @@ twilio
 
 # Day 45
 beautifulsoup4
+
+# Day 46
+spotipy
