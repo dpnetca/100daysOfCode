@@ -22,13 +22,13 @@ def get_item_price(item_id):
     }
 
     response = requests.get(url, headers=headers)
-
     response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
 
+    soup = BeautifulSoup(response.text, "html.parser")
     price_block = soup.find(name="span", id="priceblock_ourprice")
     price_block = price_block.get_text()
     price = float(price_block.split("\xa0")[1])
+
     return price
 
 
@@ -59,7 +59,7 @@ def send_email(
 items = [
     {
         "id": "B078MGXLVS",
-        "threshold_price": 70.00,
+        "threshold_price": 70.00,  # normal price 69.99
         "description": "Blue Radius III Custom Shockmount",
     },
 ]
