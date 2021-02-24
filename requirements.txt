@@ -19,3 +19,6 @@ beautifulsoup4
 
 # Day 46
 spotipy
+
+# Day 48
+selenium
