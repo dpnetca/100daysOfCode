@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import time
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 
 # URL = "http://orteil.dashnet.org/experiments/cookie/"
 URL = "https://orteil.dashnet.org/cookieclicker/"
@@ -46,6 +47,16 @@ chrome_driver_path = "/usr/bin/chromedriver"
 driver = webdriver.Chrome(chrome_driver_path)
 
 driver.get(URL)
+
+# wait for page to load, try and click the "got it" link to accept cookies
+# if found otherwise continue.  fixes bug where sometimes the cookie banner
+# appears covering one of the purchase products causing it to become
+# unclickable
+time.sleep(5)
+try:
+    driver.find_element_by_link_text("Got it!").click()
+except NoSuchElementException:
+    pass
 
 big_cookie = driver.find_element_by_id("bigCookie")
 
