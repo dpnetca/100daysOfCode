@@ -1,0 +1,96 @@
+/* https://colorhunt.co/palette/66334
+#c8f4de
+#a4e5d9
+#66c6ba
+#649dad
+#2E484F
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  color: #2e484f;
+  font-size: 6rem;
+  font-family: "Sacramento", cursive;
+  margin: 25px auto 0 auto;
+}
+
+h2 {
+  color: #2e484f;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+h3 {
+  color: #649dad;
+  font-family: "Montserrat", sans-serif;
+}
+h5 {
+  color: #649dad;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #649dad;
+  margin: 10px 20px;
+}
+a:hover {
+  color: blueviolet;
+}
+hr {
+  border-style: dotted none none;
+  border-color: #a4e5d9;
+  border-width: 7px;
+  width: 8%;
+  margin: 50px auto 50px auto;
+}
+
+.top-container {
+  background-color: #66c6ba;
+  position: relative;
+  height: 100vh;
+  min-height: 650px;
+}
+
+.middle-container {
+  background-color: #c8f4de;
+  padding: 20px;
+}
+
+.bottom-container {
+  background-color: #66c6ba;
+  padding: 50px 0 20px;
+}
+
+.title {
+  padding-top: 75px;
+}
+
+.education,
+.certifications,
+.experience-row,
+.profile-row {
+  text-align: left;
+  width: 65%;
+  margin: auto;
+}
+
+.experience-title {
+  margin-bottom: 0;
+}
+
+.experience-date {
+  margin-top: 0;
+}
+
+.profile-pic {
+  width: 150px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+}
