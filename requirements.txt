@@ -27,3 +27,8 @@ selenium
 
 # day 54
 flask
+
+# day 61
+Flask-WTF
+wtforms[email]
+Flask-Bootstrap
