@@ -1,0 +1,41 @@
+{% extends 'bootstrap/base.html' %} {% block styles %} {{super()}}
+<link
+  rel="stylesheet"
+  href="{{url_for('static', filename='css/styles.css')}}"
+/>
+{% endblock %} {% block title %}Restaurants{% endblock %} {% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>All Cafes</h1>
+
+      <table class="table">
+        <thead>
+          <tr>
+            {% for title in cafes[0] %}
+            <th>{{ title }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <!-- originally listed each row as cafe[0], cafe[1] etc. but inner loop is interesting
+        changed to innter for item in cafe loop after reviewing solution -->
+        {% for cafe in cafes[1:] %}
+        <tr>
+          {% for item in cafe %}
+          <td>
+            {% if item[0:4] == "http" %}
+            <a href="{{ item }}">Map Link</a>
+            {% else %} {{ item }} {% endif %}
+          </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </table>
+
+      <p><a href="{{ url_for('home') }}">Return to index page</a></p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
