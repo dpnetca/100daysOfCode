@@ -32,3 +32,6 @@ flask
 Flask-WTF
 wtforms[email]
 Flask-Bootstrap
+
+# Day 63
+flask_sqlalchemy
