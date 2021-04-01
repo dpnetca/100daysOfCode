@@ -35,3 +35,6 @@ Flask-Bootstrap
 
 # Day 63
 flask_sqlalchemy
+
+# Day 67
+Flask-CKEditor
