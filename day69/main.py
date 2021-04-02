@@ -11,7 +11,6 @@ from flask_login import (
     LoginManager,
     UserMixin,
     current_user,
-    login_required,
     login_user,
     logout_user,
 )
@@ -46,6 +45,7 @@ gravatar = Gravatar(
     use_ssl=False,
     base_url=None,
 )
+
 
 # CONFIGURE TABLES
 class User(UserMixin, db.Model):
