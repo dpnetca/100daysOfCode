@@ -41,3 +41,6 @@ Flask-CKEditor
 
 # Day 68
 flask-login
+
+# Day 69
+Flask-Gravatar
