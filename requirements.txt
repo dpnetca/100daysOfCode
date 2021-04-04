@@ -44,3 +44,6 @@ flask-login
 
 # Day 69
 Flask-Gravatar
+
+# day 72
+jupyterlab
