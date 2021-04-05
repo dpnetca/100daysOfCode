@@ -45,5 +45,8 @@ flask-login
 # Day 69
 Flask-Gravatar
 
-# day 72
+# day 71
 jupyterlab
+
+# day 72
+matplotlib
