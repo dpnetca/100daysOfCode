@@ -50,3 +50,6 @@ jupyterlab
 
 # day 72
 matplotlib
+
+# Day 75
+plotly
