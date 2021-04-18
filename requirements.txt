@@ -53,3 +53,6 @@ matplotlib
 
 # Day 75
 plotly
+
+# Day 76
+scipy
