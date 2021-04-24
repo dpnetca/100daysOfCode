@@ -56,3 +56,7 @@ plotly
 
 # Day 76
 scipy
+
+# Day 77
+seaborn
+scikit-learn
