@@ -14,6 +14,12 @@ taught so far, and not working ahead using techniques from future lessons.
 Repl.it seems to be common use in this course, my repl.it profile can be found at: https://repl.it/@dpnetca
 The end of day challenges for each day have been brought to the github repoisotry, and most exercises are posted here as well.
 
+# Portfolio Projects
+
+Most of the class work code (days 1-80) have a mix of my code and instructor code.
+Where as the portfolio projects are 100% my own code for instruction choosen topic.
+In order to have a clear seperation, portfilio projects have been seperated into a seperate repository which can be found here: https://github.com/dpnetca/100day_portfolio
+
 # Cadence
 
 As a group we have initially decided on a slightly slower cadence, to allow as many people as we can to be able
